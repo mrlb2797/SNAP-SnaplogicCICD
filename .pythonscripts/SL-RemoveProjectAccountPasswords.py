@@ -42,4 +42,4 @@ for SL_ProjectAsset in os.listdir(SL_ProjectFolderPath):
         # Increment counter
         SL_Accounts_Changed = SL_Accounts_Changed +1
         
-print("Accounts modified: "+SL_Accounts_Changed)
+print("Accounts modified: "+str(SL_Accounts_Changed))
