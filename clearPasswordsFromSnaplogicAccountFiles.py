@@ -18,4 +18,6 @@ SnaplogicAccountFile = open("Test IFS Account.sla", "w")
 SnaplogicAccountFile.write(json.dumps(SnaplogicAccount_PyDict, indent=4))
 SnaplogicAccountFile.close()
   
-print(SnaplogicAccount_PyDict["property_map"]["settings"]["password"]["value"])
+#open and read the file after the overwriting:
+f = open("Test IFS Account.sla", "r")
+print(f.read())
