@@ -8,4 +8,4 @@ SnaplogicAccountFile = open("Test IFS Account.sla", "r")
 #a Python Dictionary object
 SnaplogicAccountDictionary = json.loads(SnaplogicAccountFile.read())
   
-print(SnaplogicAccountDictionary["property_map"]["settings"]["password"])
+print(SnaplogicAccountDictionary["property_map"]["settings"]["password"]["value"])
