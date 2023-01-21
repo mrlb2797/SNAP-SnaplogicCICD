@@ -43,3 +43,7 @@ for SL_ProjectAsset in os.listdir(SL_ProjectFolderPath):
         SL_Accounts_Changed = SL_Accounts_Changed +1
         
 print("Accounts modified: "+str(SL_Accounts_Changed))
+
+#Write the GITHUB_OUTPUT environment variable
+with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+    print(f'{"AccountsModified"}={SL_Accounts_Changed}', file=fh)
