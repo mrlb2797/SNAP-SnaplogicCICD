@@ -22,6 +22,7 @@ def Obfuscate_Password(FolderPath, SL_Account_File):
     SnaplogicAccountFile = open(FolderPath+"/"+SL_Account_File, "w")
     SnaplogicAccountFile.write(json.dumps(SnaplogicAccount_PyDict, indent=4))
     SnaplogicAccountFile.close()
+    print("Password obsfucated for SL Account:"+SL_Account_File[0:-4])
 
 #Parse script arguments
 parser = argparse.ArgumentParser()
@@ -31,8 +32,14 @@ parser.add_argument("-f", "--SL_ProjectFolder", type=str)
 args = parser.parse_args()
 SL_ProjectFolderPath = args.SL_ProjectFolder
 
+#Account modified counter
+SL_Accounts_Changed = 0
+
 for SL_ProjectAsset in os.listdir(SL_ProjectFolderPath):
     if SL_ProjectAsset.endswith(".sla"):
         # Prints only text file present in My Folder
         Obfuscate_Password(SL_ProjectFolderPath,SL_ProjectAsset)
-        print(SL_ProjectAsset)
+        # Increment counter
+        SL_Accounts_Changed = SL_Accounts_Changed +1
+        
+return SL_Accounts_Changed
