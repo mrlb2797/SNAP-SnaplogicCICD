@@ -1,0 +1,30 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restbasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "BTG-Test"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Test IFS Account"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "password": {
+                "fp": "3d6a8ed95681d5a264b16ba3280ae78082390882e199157b1e0d5c867a090ec2",
+                "key": "account-cloud-managed-5ea6a7abe820842734ed2114-2020-04-27T09:36:50-474734+00:00",
+                "sym_iv": "eUAn2I/u4nWYG5IuJGjTEA==",
+                "sym_key": "d0XrFLDIUH41mbGjVMR7rNOnaoaJfzS81ym5t/CYT+mMWmM/0K1gNrYI5DedIwXAKnim8lM/mS97CThGireIpoD3VJUhBplFLhB75FrarGqgGaiJxJKvoA0AOz2a88ptYgGAP+Pkuwhd8QTMutByPK7l7BwIoIG3WbIJCNtaBuLLyHA1KctISYrg1BIW5VRVATLPU393dLIxo149PRISm64T9qqC8cXUTCIm/WPZVeZYMrtDKRDHrwmkcKLcpL07VJs1q8LdLL1xC3+J+qk/etBsNFsWm7NxTVCEUzlf/A1W5RJRyzolokLNbK9rjlSkCl/LQotKWnwN2hyQ1NC7tA==",
+                "value": "a6LL1jFX11B0FbLSReOT8Q=="
+            },
+            "username": {
+                "value": "MRLB2797"
+            }
+        },
+        "view_serial": 100
+    }
+}
