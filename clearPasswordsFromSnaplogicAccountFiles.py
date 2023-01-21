@@ -6,7 +6,7 @@ import re
 def replacetext(search_text,replace_text):
   
     # Opening the file in read and write mode
-    with open('SampleFile.txt','r+') as f:
+    with open('Test IFS Account.sla','r+') as f:
   
         # Reading the file data and store
         # it in a file variable
