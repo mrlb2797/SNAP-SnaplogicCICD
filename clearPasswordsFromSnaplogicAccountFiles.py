@@ -21,3 +21,16 @@ SnaplogicAccountFile.close()
 #open and read the file after the overwriting:
 f = open("Test IFS Account.sla", "r")
 print(f.read())
+
+- name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git add "Test IFS Account.sla"
+          git commit -m "Removed passwords from Account()"
+          git push origin master
