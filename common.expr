@@ -1,0 +1,16 @@
+{
+	IFSBaseURL: "https://bettys-dev.ifs.cloud:48080/int/ifsapplications/projection/v1",
+	OLDMAGBaseURL: "https://m2fusiondev.bettys.co.uk/rest/default/V1",
+	OLDATPBaseURL: "https://m2fusiondev.bettys.co.uk/atp/backend",
+	OLDATP2BaseURL: "https://m2fusiondev.bettys.co.uk/atp2/backend",
+	MAGBaseURL: "https://m2upgrade.bettys.co.uk/rest/default/V1",
+	ATPBaseURL: "https://m2upgrade.bettys.co.uk/atp/backend",
+	ATP2BaseURL: "https://m2upgrade.bettys.co.uk/atp2/backend",
+	METAPACKBaseURL: "https://dm-delta.metapack.com/api/4.x/services",
+	IFSExplorerURL: "https://bettys-dev.ifs.cloud:48080/client/runtime/Ifs.Fnd.Explorer.application",
+	OLDMAGBackEndOrderViewURL: "https://m2fusiondev.bettys.co.uk/betadmin/sales/order/view/order_id",
+	MAGBackEndOrderViewURL: "https://m2upgrade.bettys.co.uk/betadmin/sales/order/view/order_id",
+	OpayoURL: "https://test.sagepay.com"
+}
+
+
