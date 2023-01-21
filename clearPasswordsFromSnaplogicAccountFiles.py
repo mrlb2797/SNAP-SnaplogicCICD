@@ -18,4 +18,4 @@ SnaplogicAccountFile = open("Test IFS Account.sla", "w")
 SnaplogicAccountFile.write(json.dumps(SnaplogicAccount_PyDict, indent=4))
 SnaplogicAccountFile.close()
   
-print(SnaplogicAccountDictionary["property_map"]["settings"]["password"]["value"])
+print(SnaplogicAccount_PyDict["property_map"]["settings"]["password"]["value"])
