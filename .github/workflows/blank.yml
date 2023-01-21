@@ -40,4 +40,4 @@ jobs:
           # Stage the file, commit and push
           git add "Test IFS Account.sla"
           git commit -m "Removed passwords from Account()"
-          git push origin master
+          git push origin main
